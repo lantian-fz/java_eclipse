@@ -15,7 +15,7 @@ public class test {
 		stu1.eat();
 		
 		System.out.println("++++++++++++++++++++++++");
-		Student stu2=stu1;
+		Student stu2=stu1;//把stu1的地址给stu2
 		stu2.name = "鲲";
 		stu2.age = 20;
 		System.out.println(stu2.name);
@@ -25,5 +25,5 @@ public class test {
 		System.out.println(stu2.name);
 		stu2.name="雨";
 		System.out.println(stu1.name);
-	}
+	}//stu1和stu2指向的地址是同一个地址
 }
