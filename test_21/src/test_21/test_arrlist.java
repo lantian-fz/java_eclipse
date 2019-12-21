@@ -15,7 +15,7 @@ public class test_arrlist {
 		list1.add("def");
 		list1.add("张三");
 		list1.add("李四");
-		 
+		
 		System.out.println(list1);
 		
 		String str1 = list1.get(1);
